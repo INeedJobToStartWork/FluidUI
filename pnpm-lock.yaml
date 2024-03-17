@@ -1,0 +1,23 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  commitsmile:
+    specifier: ^0.6.0
+    version: 0.6.0
+
+packages:
+
+  /commitsmile@0.6.0:
+    resolution: {integrity: sha512-9qmiJiO+eYg/clDMMt2mfD0TSb2qIFaRG2cd2aHy/0z5G0ILOH+931q48ijbRIePsZk4M7OubXoCvHP2MnDPGA==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dev: true
+    bundledDependencies:
+      - '@clack/prompts'
+      - commander
+      - jiti
+      - zod

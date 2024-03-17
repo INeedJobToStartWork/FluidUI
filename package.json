@@ -1,0 +1,25 @@
+{
+  "name": "fluidui-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ineedjobtostartwork/fluidui"
+  },
+  "homepage": "https://github.com/INeedJobToStartWork/Commit-Smile",
+  "bugs": "https://github.com/ineedjobtostartwork/fluidui/issues/new/choose",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ineedjobtostartwork",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.x",
+    "pnpm": ">=8.x"
+  },
+  "packageManager": "pnpm@8.14.0",
+  "devDependencies": {
+    "commitsmile": "^0.6.0"
+  }
+}
