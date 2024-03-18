@@ -1,5 +1,5 @@
-name: "✨Idea - 🧩 Component Request"
-title: "✨[Idea Component] - <TITLE_OF_ISSUE>"
+name: "✨Idea - Feature Request"
+title: "✨[Idea] - <TITLE_OF_ISSUE>"
 description: Share your ideas with us!
 labels: [feature]
 body:
@@ -9,7 +9,7 @@ body:
         Wow, good to see you there!
         It's good to know you're creative ✨
 
-        Before submitting a new component request, please check the links below to see if there somebody already requested it:
+        Before submitting a new feature request, please check the links below to see if there somebody already requested it:
           - FluidUI's [Idea's tab](https://github.com/INeedJobToStartWork/FluidUI/discussions/categories/ideas)
           - FluidUI's [closed ideas tab](https://github.com/INeedJobToStartWork/FluidUI/discussions/categories/ideas?discussions_q=category%3AIdeas+is%3Aclosed)
           - FluidUI's [Discussions tab](https://github.com/INeedJobToStartWork/FluidUI/discussions) 
@@ -19,8 +19,8 @@ body:
     id: idea
     attributes:
       label: Idea ✨
-      description: Please give a short description of the component
-      placeholder: e.g. I want to add Button Component
+      description: Please give a short description of the feature
+      placeholder: e.g. I want to add cooldown to button
     validations:
       required: true
 
@@ -30,11 +30,7 @@ body:
       label: How it should work?
       description: Give a description of how it should work
       placeholder: |
-        e.g After clicking button, it should execute onClick function.
-        Should have functionality:
-        - X
-        - Y
-        - Z
+        e.g After clicking button, it should be disabled for X seconds
     validations:
       required: true
 
@@ -53,6 +49,7 @@ body:
     attributes:
       label: How it should be implemented?
       description: What do you expect, how it should be implemented? Which props?
+
     validations:
       required: true
 
@@ -66,9 +63,3 @@ body:
       placeholder: |
         e.g Similar feature is implemented in XXX lib.
         Here is link: XXXX
-  - type: input
-    id: example
-    attributes:
-      label: Additional information
-      description: |
-        Write here everything what you want about this feature.
