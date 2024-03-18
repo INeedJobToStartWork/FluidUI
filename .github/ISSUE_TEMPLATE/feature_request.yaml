@@ -24,7 +24,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: work
     attributes:
       label: How it should work?
@@ -34,7 +34,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: solution
     attributes:
       label: What it gonna solve? Why we should add it?
@@ -44,7 +44,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: implementation
     attributes:
       label: How it should be implemented?
@@ -53,7 +53,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: example
     attributes:
       label: Example of usage / I have seen it in other library
