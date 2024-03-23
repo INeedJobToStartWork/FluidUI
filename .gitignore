@@ -1,5 +1,38 @@
+### Vscode ###
 **/.vscode/**
-.vscode
-
-node_modules
+### Turbo ###
+**/.turbo/**
+### Node ###
 **/node_modules/**
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+### Dependency directories ###
+**/node_modules/
+**/jspm_packages/
+### Runtime data ###
+pids
+*.pid
+*.seed
+*.pid.lock
+### Logs ###
+logs
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+### NPM ###
+# Optional npm cache directory
+.npm
+# Output of 'npm pack'
+*.tgz
+**/*.tgz
+
+### dotenv ###
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+**/.env
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/.env.local
