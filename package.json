@@ -20,6 +20,7 @@
   },
   "packageManager": "pnpm@8.14.0",
   "devDependencies": {
-    "commitsmile": "^0.6.0"
+    "commitsmile": "^0.6.0",
+    "turbo": "^1.13.0"
   }
 }
