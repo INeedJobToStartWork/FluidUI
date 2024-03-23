@@ -1,2 +1,2 @@
-![image](https://github.com/INeedJobToStartWork/FluidUI/assets/97305201/85c84676-25e9-4603-a8d2-e3eefbba8179)
+![image](https://github.com/INeedJobToStartWork/FluidUI/assets/97305201/9e6cc7e4-43d0-4770-9a42-e3f791aaa92e)
 <p align="center">🏗️</p>
