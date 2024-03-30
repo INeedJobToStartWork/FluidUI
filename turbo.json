@@ -4,6 +4,23 @@
   "pipeline": {
     "format": {},
     "lint:fix": {},
-    "lint": {}
+    "lint": {},
+    "test": {},
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "build:npm": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "start": {},
+    "npm:publish": {
+      "dependsOn": ["^build:npm"]
+    },
+    "clear": {
+      "cache": false,
+      "outputs": []
+    }
   }
 }
