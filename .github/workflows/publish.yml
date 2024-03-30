@@ -1,6 +1,9 @@
 name: Publish Package to npmjs
 on:
   push:
+    paths:
+      - ".changeset/**"
+      - "packages/**"
     branches:
       - main
 
