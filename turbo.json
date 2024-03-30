@@ -1,5 +1,9 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "experimentalUI": true,
-  "pipeline": {}
+  "pipeline": {
+    "format": {},
+    "lint:fix": {},
+    "lint": {}
+  }
 }
