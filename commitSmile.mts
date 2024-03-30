@@ -15,6 +15,7 @@ const config: TConfig = {
         { label: "📖 Docs", value: "docs" },
         { label: "🌐 Socials", value: "socials" },
         { label: "📘 Create Design System (TUT)", value: "cds" },
+        { label: "⚙️  Configs", value: "configs" },
       ],
     },
   },
