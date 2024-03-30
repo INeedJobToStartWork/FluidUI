@@ -14,7 +14,6 @@
     "lint": "turbo lint",
     "lint:fix": "turbo lint",
     "format": "turbo format",
-    "postinstall": "husky install",
     "prepare": "husky"
   },
   "author": "ineedjobtostartwork",
@@ -34,9 +33,9 @@
   "lint-staged": {
     "*": [
       "git add .",
-      "pnpm format",
-      "pnpm lint:fix",
-      "pnpm lint"
+      "pnpm format --",
+      "pnpm lint:fix --",
+      "pnpm lint --"
     ]
   }
 }
