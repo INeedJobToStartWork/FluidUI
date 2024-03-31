@@ -244,7 +244,6 @@ export default [
 			// "sort-imports": "warn",
 			"@stylistic/js/brace-style": "off",
 			"sort-vars": "off",
-			"@stylistic/js/comma-dangle": ["error", "never"],
 			strict: "off",
 			"@stylistic/js/comma-spacing": ["error", { after: true, before: false }],
 			"symbol-description": "warn",

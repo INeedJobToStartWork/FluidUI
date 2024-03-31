@@ -2,16 +2,20 @@
   "name": "docs",
   "version": "0.0.0",
   "private": true,
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "echo 'Add test script here'",
-    "lint": "echo 'Add lint script here'"
+    "prettier": "pnpm prettier . --write && pnpm prettier . --check",
+    "lint": "pnpm eslint .",
+    "lint:fix": "pnpm eslint . --fix"
   },
   "devDependencies": {
+    "eslint": "^8.57.0",
     "eslintrc": "workspace:*",
+    "prettier": "^3.2.5",
     "prettierrc": "workspace:*",
     "tsconfigrc": "workspace:*"
   },

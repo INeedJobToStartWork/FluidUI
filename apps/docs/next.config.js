@@ -1,6 +1,6 @@
-import NextraConfig from "nextra";
+import nextraConfig from "nextra";
 
-const withNextra = NextraConfig({
+const withNextra = nextraConfig({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.jsx",
 });
