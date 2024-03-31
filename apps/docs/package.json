@@ -7,10 +7,16 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "echo 'Add test script here'",
-    "prettier": "pnpm prettier . --write && pnpm prettier . --check",
+    "format": "pnpm prettier . --write && pnpm prettier . --check",
     "lint": "pnpm eslint .",
     "lint:fix": "pnpm eslint . --fix"
+  },
+  "lint-staged": {
+    "*": [
+      "pnpm format --",
+      "pnpm lint:fix --",
+      "pnpm lint --"
+    ]
   },
   "devDependencies": {
     "eslint": "^8.57.0",

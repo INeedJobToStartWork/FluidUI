@@ -17,10 +17,6 @@
     "start": {},
     "npm:publish": {
       "dependsOn": ["^build:npm"]
-    },
-    "clear": {
-      "cache": false,
-      "outputs": []
     }
   }
 }

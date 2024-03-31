@@ -12,10 +12,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "turbo dev",
+    "build": "turbo build",
     "build:npm": "turbo build:npm",
     "lint": "turbo lint",
     "lint:fix": "turbo lint",
     "format": "turbo format",
+    "clean": "pnpm clean:node-modules && pnpm clean:lock && pnpm clean:cache && pnpm install --hoist",
+    "clean:cache": "rimraf ./node_modules/.cache --glob && rimraf ./apps/**/node_modules/.cache --glob && rimraf ./packages/**/node_modules/.cache --glob && rimraf ./configs/**/node_modules/.cache --glob",
+    "clean:lock": "rimraf ./pnpm-lock.yaml --glob ",
+    "clean:node-modules": "rimraf ./apps/**/node_modules --glob && rimraf ./configs/**/node_modules --glob && rimraf ./packages/**/node_modules --glob && rimraf ./node_modules --glob",
     "prepare": "husky"
   },
   "author": "ineedjobtostartwork",
@@ -31,13 +36,5 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "turbo": "^1.13.0"
-  },
-  "lint-staged": {
-    "*": [
-      "git add .",
-      "pnpm format --",
-      "pnpm lint:fix --",
-      "pnpm lint --"
-    ]
   }
 }
